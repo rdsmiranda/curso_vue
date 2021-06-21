@@ -1,14 +1,28 @@
+// Este código se autogenera al instalar por primera vez vue-router. Se genera con la estructura de nuestra app.
+
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import Temperatura from '../views/Temperatura.vue'
+import Personas from '../views/Personas.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    name: 'Home',
+    name: 'home',
     component: Home
+  },
+  {
+    path: '/temperatura',
+    name: 'temperatura',
+    component: Temperatura
+  },
+  {
+    path: '/personas',
+    name: 'personas',
+    component: Personas
   },
   {
     path: '/about',

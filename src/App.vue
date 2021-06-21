@@ -10,5 +10,8 @@ export default {
   components: {
     Base,
   },
+  data: () => ({
+    //
+  }),
 };
 </script>
