@@ -1,4 +1,4 @@
-# curso_vue
+# curso
 
 ## Project setup
 ```
