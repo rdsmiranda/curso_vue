@@ -5,6 +5,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Temperatura from '../views/Temperatura.vue'
 import Personas from '../views/Personas.vue'
+import PersonasEdit from '../views/PersonasEdit.vue'
 
 Vue.use(VueRouter)
 
@@ -23,6 +24,16 @@ const routes = [
     path: '/personas',
     name: 'personas',
     component: Personas
+  },
+  {
+    path: '/personas/edit',
+    name: 'personas_edit',
+    component: PersonasEdit
+  },
+  {
+    path: '/personas/edit/:id',
+    name: 'personas_editar',
+    component: PersonasEdit
   },
   {
     path: '/about',
